@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">	
+		<style>
+		#content1
+		{
+			width:450px;
+			background-color:red;
+			float:left;
+			height:200px;
+			text-align:left;
+			
+		}
+		#content2
+		{
+			width:450px;
+			background-color:blue;
+			float:left;
+			text-align:center;
+			height:200px;
+		}
+		#content3
+		{
+			width:450px;
+			background-color:green;
+			float:left;
+			text-align:right;
+			height:200px;
+		}
+		#content
+		{
+			width:1000px;
+			background-color:red;
+		}
+		p
+			{	
+				text-align: center;
+			}
+		h1
+			{
+				text-align: center;
+			}
+		#p2
+			{
+				padding-top:10px;
+				color:blue;
+			}
+		#p3
+			{
+				text-align: center;
+				padding-top:300px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1> LOGO </h1>
+	<header>
+			<p>	
+				<a href="url">Trang chủ</a>
+				<a href="url">Sản phẩm</a>
+				<a href="url">Dịch vụ</a>
+				<a href="url">Về chúng tôi</a>
+				<a href="url">Liên hệ</a>
+			</p>
+			<p id="p2"> Một số áp dụng</p>
+	</header>
+	<content id="content" >
+		<div id="content1">  Nội dung câu 1 </div>
+		<div id="content2">  Nội dung câu 2 </div>
+		<div id="content3">  Nội dung câu 3</div>
+	</content>	
+	<footer id="footer1" >		
+			<p id="p3"><b>@Copyright2015</b></p>
+	</footer>
+	</body>
+	
+</html>

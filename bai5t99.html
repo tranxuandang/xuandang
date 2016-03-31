@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS</title>
+	<meta charset =utf-8>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		body{
+			padding:30px;	
+		}
+		nav,h1{
+			margin:20px;
+			float:left;
+			width:100%;
+		}
+		li{
+			list-style:none;
+		}
+		.h_nav li{
+			display-inline:block;
+			width:100px;
+			border:2px solid;
+			background:#ff22aa;
+			float:left;
+			height:30px;
+		}
+		.h_nav a{
+			text-decoration:none;
+			background:#aaa;
+			display:block;
+			height:100%;
+			text-align:center;
+		}
+		.h_nav a:hover{
+			background:#ff22aa;
+			color:#ABC;
+		}
+		.v_nav li{
+			width:100px;
+			border:2px solid;
+		}
+		.v_nav a{
+			background:#ffee22;
+			padding:5px 10px;
+			text-decoration:none;
+			display:block;
+			height:30px;
+		}
+		.v_nav a:hover{
+			background:ffeeaa;
+			color:#fff;
+		}
+		.drop_nav li{
+			width:150px;
+			float:left;
+			border:2px solid;
+		}
+		.drop_nav a{
+			background:#aaa;
+			padding:5px 10px;
+			text-decoration:none;
+			display:block;
+			height:30px;
+		}
+		.drop_nav a:hover{
+			background:ffeeaa;
+			color:#fff;
+		}
+		.drop_nav li ul{
+			display:none;
+		}
+		.drop_nav li:hover ul{
+			display:block;
+		}
+		.fly_nav li{
+			width:150px;
+			border:2px solid;
+			position:relative;
+		}
+		.fly_nav a{
+			background:#aaa;
+			padding:5px 10px;
+			text-decoration:none;
+			display:block;
+			height:30px;
+		}
+		.fly_nav a:hover{
+			background:ffeeaa;
+			color:#fff;
+		}
+		.fly_nav li ul{
+			display:none;
+			position:absolute;
+			left:150px;
+			top:0;
+		}
+			.fly_nav li: hover ul{
+			display:block;
+		}
+	</style>
+</head>
+<body>
+		<h1>Horizontal navigation bar</h1>
+		<nav class="h_nav">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">NEWS</a></li>
+			<li><a href="#">ABOUT</a></li>
+			<li><a href="#">CONTACT</a></li>
+			
+		</ul>
+		</nav>
+		<h1>Navigation bar</h1>
+		<nav class="v_nav">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">NEWS</a></li>
+			<li><a href="#">ABOUT</a></li>
+			<li><a href="#">CONTACT</a></li>
+		</ul>
+		</nav>
+		<h1>Dropdown navigation bar</h1>
+		<nav class="drop_nav">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">NEWS</a>
+				<ul>
+				<li><a href="#">ITEAM1</a></li>
+				<li><a href="#">ITEAM2</a></li>
+				<li><a href="#">ITEAM3</a></li>
+				</ul>
+			</li>
+			<li><a href="#">ABOUT</a></li>
+			<li><a href="#">CONTACT</a></li>
+		</ul>
+		</nav>
+		<h1>Vertycal flyout navigation bar</h1>
+		<nav class="fly_nav">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">NEWS</a>
+				<ul>
+				<li><a href="#">ITEAM1</a></li>
+				<li><a href="#">ITEAM2</a></li>
+				<li><a href="#">ITEAM3</a></li>
+				</ul>
+			</li>
+			<li><a href="#">ABOUT</a></li>
+			<li><a href="#">CONTACT</a></li>
+		</ul>
+		</nav>
+</body>
+</html>

@@ -1,0 +1,27 @@
+*{
+	padding:0;
+	margin:0;
+}
+body
+{
+	font-family:helvetica;
+	background-color:#ABC;
+	padding:50px;
+}
+h1
+{
+	text-align:center;
+	border-bottom:5px solid #009;
+	margin-bottom:50px;	
+}
+ul #xuandang,ul.sub
+{
+	list-style-type:none;
+}
+ul #xuandang lighter{
+	border: 1px solid blue;
+	margin:100px;
+	text-align:center;
+	float:left;
+	margin-right:5px;
+}

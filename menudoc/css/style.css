@@ -1,0 +1,35 @@
+
+#menu ul
+{
+	width:200px;
+	height:auto;
+	background-color:#2f4f4f;
+	display:block;
+	margin:0;
+	padding:0;
+	width:250px;
+}
+#menu li
+{
+	list-style:none;
+	width:100%;
+	height:auto;
+	display:block;
+	border-bottom:2px solid #fff;
+	color:#fffafa;
+	font-family:helvetica;
+	font-size:15px;
+	padding:15px;
+	text-align:center;
+}
+#menu li:hover
+{
+	background:#ff4500;
+	width:250px;
+}
+h1
+{
+	font-family:helvetica;
+	color:#8fbc8f;
+	font-size:50px;
+}
